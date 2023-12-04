@@ -44,9 +44,16 @@ const passport = require('passport')
 // ));
 
 
-passport.serializeUser((user, done) => {
-    done(null, user)
+passport.serializeUser(function (user, cb) {
+	console.log('Serializing user:', user);
+	const userDetails = {
+		username: user.username,
+		id: user.id,
+		displayName: user.displayName,
+	}
+	cb(null, userDetails)
 })
-passport.deserializeUser((user, done) => {
-    done(null, user)
+passport.deserializeUser(function (userDetails, cb) {
+	console.log(userDetails)
+	cb(null, userDetails)
 })
