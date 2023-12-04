@@ -9,3 +9,7 @@ Initial Usage:
 - npm start
 
 
+Instrcutions: 
+- Add your own Client ID's and Client Secret ID's into the passport.js file
+- Add your own Client URL in the auth.js file in routes folder 
+
