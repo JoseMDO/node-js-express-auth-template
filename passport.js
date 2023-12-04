@@ -6,8 +6,8 @@ const passport = require('passport')
 const GOOGLE_CLIENT_ID = "20848583384-k3kceqk9idii833arekke8gvaqonegdf.apps.googleusercontent.com"
 const GOOGLE_CLIENT_SECRET = "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"
 
-const GITHUB_CLIENT_ID = "03d4ebcb02c54cf4ed6e"
-const GITHUB_CLIENT_SECRET = "b9ffed28690453b4c2826e88ad4cc5931003de18"
+const GITHUB_CLIENT_ID = "2fb171dce9bfc15384f4"
+const GITHUB_CLIENT_SECRET = "3be2e2812450013fe669ab068d80d2fd404fac8e"
 
 
 passport.use(new GoogleStrategy({
