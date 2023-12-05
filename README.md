@@ -16,6 +16,10 @@ Initial Usage:
 
 
 Instrcutions: 
+- Create a new repository using this template.
+- Host your application on Azure. 
+- Test to ensure it hosted successfuly. 
+- Setup GitHub and Google Configurations. 
 - When setting up your Client ID's, when it asks you for the homepage URL, type the url of your hosted application. (Either http://localhost.... OR https://hostedazuresite..... make sure to get rid of the "/login" after the url.)
 - When it asks you for the callback URL, it is the same url as your homepage but at the end, add "/auth/github/callback" or "auth/google/callback" depending which one you are setting up. (again make sure to get rid of the /login at the end of the url before adding the auth/github/callback)
 - Add your own Client ID's and Client Secret ID's into the passport.js file
