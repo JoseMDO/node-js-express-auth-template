@@ -5,7 +5,7 @@ const passport = require("passport")
 
 
 // YOUR CUSTOM URL GOES HERE 
-const CLIENT_URL = "https://auth-test-template-4.azurewebsites.net/"
+// const CLIENT_URL = "https://node-js.....net/"
 
 
 router.get("/login/failed", (req,res) => {
